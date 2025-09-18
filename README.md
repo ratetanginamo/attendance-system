@@ -1,5 +1,5 @@
 # Attendance System
-
+![Attendance System Preview](https://raw.githubusercontent.com/ratetanginamo/attendance-system/main/Screenshot_2025-09-19-00-23-31-049-edit_com.miui.videoplayer.jpg)
 ## Backend
 
 - Navigate to `backend/`
@@ -20,6 +20,5 @@
 - Role-based portals (student, employee, admin)
 - NFC and QR code scanning utilities (to be implemented)
 
-## vdoes attendance system 
-- how this system works
-[![Watch Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.github.com/embedPDF_VIDEO_VIDEO_1758205751550.mp4)
+## How the Attendance System Works
+[![Watch Video](https://raw.githubusercontent.com/ratetanginamo/attendance-system/main/Screenshot_2025-09-19-00-23-31-049-edit_com.miui.videoplayer.jpg)](https://github.com/ratetanginamo/attendance-system/raw/main/embedPDF_VIDEO_VIDEO_1758205751550.mp4)
