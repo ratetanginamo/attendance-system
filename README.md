@@ -1,4 +1,4 @@
-# Attendance System
+EE# Attendance System
 ![Attendance System Preview](https://raw.githubusercontent.com/ratetanginamo/attendance-system/main/Screenshot_2025-09-19-00-23-31-049-edit_com.miui.videoplayer.jpg)
 ## Backend
 
@@ -21,4 +21,4 @@
 - NFC and QR code scanning utilities (to be implemented)
 
 ## How the Attendance System Works
-[![Watch Video](https://raw.githubusercontent.com/ratetanginamo/attendance-system/main/Screenshot_2025-09-19-00-23-31-049-edit_com.miui.videoplayer.jpg)](https://github.com/ratetanginamo/attendance-system/raw/main/embedPDF_VIDEO_VIDEO_1758205751550.mp4)
+[![Watch Video](https://raw.githubusercontent.com/ratetanginamo/attendance-system/main/Screenshot_2025-09-19-00-23-31-049-edit_com.miui.videoplayer.jpg)](https://github.com/ratetanginamo/attendance-system/blob/main/PDF_VIDEO_VIDEO_1758205751550.mp4)
