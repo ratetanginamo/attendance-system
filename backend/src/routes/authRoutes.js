@@ -1,15 +1,17 @@
-// backend/routes/authRoutes.js
-
 const express = require('express');
 const router = express.Router();
 const { loginUser, registerUser } = require('../controllers/authController');
 
-// @route   POST /api/auth/login
-// @desc    Login user and return JWT token
-router.post('/login', loginUser);
-
-// @route   POST /api/auth/register
-// @desc    Register a new user
-router.post('/register', registerUser);
+/**
+ * POST /api/auth
+ * Body must include:
+ *  { type: 'login' | 'register', ...otherFields }
+ */
+router.post('/', (req, res) => {
+  const { type } = req.body;
+  if (type === 'login') return loginUser(req, res);
+  if (type === 'register') return registerUser(req, res);
+  return res.status(400).json({ msg: 'Invalid type. Use login or register.' });
+});
 
 module.exports = router;
