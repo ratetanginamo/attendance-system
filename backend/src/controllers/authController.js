@@ -56,4 +56,3 @@ exports.loginUser = async (req, res) => {
     res.status(500).json({ msg: 'Server error' });
   }
 };
-      
